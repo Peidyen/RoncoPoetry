@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>A Little Fantasy Starter Gift</title>
+  <style>
+    :root{
+      --bg:#0f1220;
+      --card:#151a2e;
+      --ink:#f2f3ff;
+      --muted:#c7c9e6;
+      --accent:#ffd27a;
+      --accent2:#9be7ff;
+      --line:rgba(255,255,255,.10);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1200px 800px at 20% 0%, rgba(155,231,255,.15), transparent 55%),
+                  radial-gradient(1200px 800px at 90% 20%, rgba(255,210,122,.12), transparent 60%),
+                  var(--bg);
+      color:var(--ink);
+      line-height:1.45;
+      padding:40px 16px;
+    }
+    .wrap{max-width:820px;margin:0 auto}
+    .card{
+      background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:28px;
+      box-shadow: 0 18px 60px rgba(0,0,0,.35);
+      backdrop-filter: blur(6px);
+    }
+    h1{
+      margin:0 0 8px 0;
+      font-size:28px;
+      letter-spacing:.2px;
+    }
+    .subtitle{
+      margin:0 0 18px 0;
+      color:var(--muted);
+      font-size:14.5px;
+    }
+    .to{
+      display:inline-flex;
+      gap:8px;
+      align-items:center;
+      padding:8px 12px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      color:var(--muted);
+      font-size:13px;
+      margin:10px 0 18px;
+      background:rgba(0,0,0,.15);
+    }
+    .to strong{color:var(--ink); font-weight:650}
+    hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+    .lead{
+      font-size:16px;
+      color:var(--ink);
+      margin:0 0 18px 0;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:12px;
+      margin-top:10px;
+    }
+    @media(min-width:760px){
+      .grid{grid-template-columns: 1fr 1fr}
+    }
+    .book{
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:14px 14px 12px;
+      background:rgba(0,0,0,.12);
+    }
+    .book .kicker{
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+      margin-bottom:6px;
+    }
+    .badge{
+      width:30px;height:30px;border-radius:10px;
+      display:inline-flex;align-items:center;justify-content:center;
+      background:rgba(255,210,122,.14);
+      border:1px solid rgba(255,210,122,.35);
+      font-size:16px;
+      flex:0 0 auto;
+    }
+    .title{
+      font-weight:750;
+      margin:0;
+      font-size:15.5px;
+    }
+    .author{
+      margin:2px 0 0;
+      color:var(--muted);
+      font-size:13px;
+    }
+    .desc{
+      margin:8px 0 0;
+      color:var(--muted);
+      font-size:14px;
+    }
+    h2{
+      font-size:16px;
+      margin:0 0 10px 0;
+      letter-spacing:.2px;
+    }
+    .section-note{
+      margin:0 0 12px 0;
+      color:var(--muted);
+      font-size:14px;
+    }
+    ul{
+      margin:10px 0 0 18px;
+      padding:0;
+      color:var(--muted);
+    }
+    li{margin:6px 0}
+    .footer{
+      margin-top:18px;
+      padding-top:18px;
+      border-top:1px solid var(--line);
+      color:var(--muted);
+      font-size:14px;
+    }
+    .sig{
+      margin-top:10px;
+      color:var(--ink);
+      font-weight:650;
+    }
+    .spark{
+      color:var(--accent);
+      font-weight:750;
+    }
+    .spark2{
+      color:var(--accent2);
+      font-weight:750;
+    }
+    .print{
+      margin-top:14px;
+      font-size:12.5px;
+      color:rgba(199,201,230,.8);
+    }
+    @media print{
+      body{background:#fff;color:#111;padding:0}
+      .card{box-shadow:none;border-radius:0;border:0;background:#fff}
+      .to{background:#fff}
+      .book{background:#fff}
+      .print{display:none}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>A Little Fantasy Starter Gift <span class="spark">✦</span></h1>
+      <p class="subtitle">A tiny bundle of wonder, warmth, and personal growth—picked with love.</p>
+
+      <div class="to">
+        For <strong>my muse</strong>, <strong>my wife</strong>, and <strong>my son</strong> <span class="spark2">✦</span>
+      </div>
+
+      <p class="lead">
+        Hi my loves,<br><br>
+        I wanted to share a small set of fantasy books that feel like <span class="spark">magic</span> without feeling like homework—
+        stories that carry <span class="spark2">wonder</span>, kindness, humor, and that gentle feeling of becoming more yourself.
+        If we read any of these at the same time, even better.
+      </p>
+
+      <hr>
+
+      <h2>⭐ 3-Book Starter Kit</h2>
+      <p class="section-note">If you read only three, start here—in this order.</p>
+
+      <div class="grid">
+        <div class="book">
+          <div class="kicker">
+            <div class="badge">🌙</div>
+            <div>
+              <p class="title">The Last Unicorn</p>
+              <p class="author">Peter S. Beagle</p>
+            </div>
+          </div>
+          <p class="desc">Funny, tender, and quietly profound—like a dream that leaves you a little brighter afterward.</p>
+        </div>
+
+        <div class="book">
+          <div class="kicker">
+            <div class="badge">✨</div>
+            <div>
+              <p class="title">Stardust</p>
+              <p class="author">Neil Gaiman</p>
+            </div>
+          </div>
+          <p class="desc">Romantic, whimsical adventure with heart—fairytale energy, but grown-up and warm.</p>
+        </div>
+
+        <div class="book">
+          <div class="kicker">
+            <div class="badge">🔥</div>
+            <div>
+              <p class="title">A Wizard of Earthsea</p>
+              <p class="author">Ursula K. Le Guin</p>
+            </div>
+          </div>
+          <p class="desc">A true classic about identity, power, humility, and becoming whole—simple on the surface, deep underneath.</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <h2>🍯 Sweet &amp; Magical Next</h2>
+      <p class="section-note">When you want wonder-first: cozy, charming, and delightful.</p>
+      <ul>
+        <li><strong>Howl’s Moving Castle</strong> — Diana Wynne Jones (cozy, clever, hilarious, heartwarming)</li>
+        <li><strong>The Princess Bride</strong> — William Goldman (witty, romantic, iconic fun)</li>
+        <li><strong>The Neverending Story</strong> — Michael Ende (timeless wonder, genuinely moving)</li>
+        <li><strong>The Night Circus</strong> — Erin Morgenstern (enchanting, romantic, gorgeous vibes)</li>
+        <li><strong>The Ocean at the End of the Lane</strong> — Neil Gaiman (tender, mysterious, childlike wonder)</li>
+        <li><strong>The Book of Three</strong> (Prydain #1) — Lloyd Alexander (classic adventure, lovable characters)</li>
+      </ul>
+
+      <hr>
+
+      <h2>🌙 Deep &amp; Poetic Next</h2>
+      <p class="section-note">When you want meaning-first: lyrical, mythic, and quietly transformational.</p>
+      <ul>
+        <li><strong>Piranesi</strong> — Susanna Clarke (mysterious, radiant, unforgettable)</li>
+        <li><strong>The Forgotten Beasts of Eld</strong> — Patricia A. McKillip (mythic, elegant, powerful)</li>
+        <li><strong>The Once and Future King</strong> — T.H. White (Arthurian, thoughtful, human)</li>
+        <li><strong>The King of Elfland’s Daughter</strong> — Lord Dunsany (ancient-feeling, dreamy, lyrical)</li>
+        <li><strong>Earthsea</strong> (the sequels) — Ursula K. Le Guin (wisdom deepens beautifully)</li>
+        <li><strong>Jonathan Strange &amp; Mr Norrell</strong> — Susanna Clarke (big, rich, slow-bloom masterpiece)</li>
+      </ul>
+
+      <div class="footer">
+        I picked these because each of you has that mix of kindness, imagination, humor, and depth—and I love the idea of us
+        sharing a few stories that feel like <span class="spark">home</span>, even when they’re about faraway worlds.
+        <div class="sig">Love you. Always. 🖤✨</div>
+        <div class="print">Tip: you can print this page (Ctrl/Cmd + P) and it’ll format nicely.</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
