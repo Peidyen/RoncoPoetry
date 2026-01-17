@@ -1,6 +1,7 @@
 
 *** Gouty Toe Reggae
 (Verse 1)
+
 Woke up dis mornin', sun in di sky
 But a wicked pain mek mi wanna cry
 Mi foot a-throbbin', big like a yam
