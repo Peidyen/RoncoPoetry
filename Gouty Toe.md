@@ -1,19 +1,19 @@
 
 *** Gouty Toe Reggae
 
-***(Verse 1)
+(Verse 1)
 Woke up dis mornin', sun in di sky
 But a wicked pain mek mi wanna cry
 Mi foot a-throbbin', big like a yam
 Dis gouty toe, ah di debil, man!
 
-***(Chorus)
+(Chorus)
 Mi gouty toe, mi gouty toe,
 Don't you know, Miguelito, has got to go!
 It got mi limpin', got mi down low
 Dis is di worst pain mi ever know!
 
-***(Verse 2)
+(Verse 2)
 Mi wife she seh, "You stubborn, yuh hear?
 Dat salt fish an' rum, you mus' mek it clear
 Fi di sake a' yuh health, an' fi di good a' we life
